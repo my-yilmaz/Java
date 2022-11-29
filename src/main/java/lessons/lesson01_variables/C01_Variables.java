@@ -36,7 +36,7 @@ public class C01_Variables {
      *? 7)boolean: true veya false degerleri icin kullanilir.
      Memory'de 1 bit yer kaplar
 
-     *? 8)char: Tek karakaterler icin kullanilir 16 bit kullanilir
+     *? 8)char: Tek karakaterler icin kullanilir 16 bit kullanir
           A, c, 2, ?, _, =, ....
    ** Note: "char"lara deger verirken, degeri tek tirnak arasina koyulur, yoksa hata verir.
 

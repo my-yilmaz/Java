@@ -16,6 +16,5 @@ public class C02_MemoryKullanimi {
 
      *TODO: Note: Class ==> Variable ==> Object
                             Method
-
      */
 }

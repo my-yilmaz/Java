@@ -9,8 +9,8 @@ public class C03_Car {
     */
 
     public static void main(String[] args) {
-                              // *! Object nasil olusturulur?
-        // *? 1) ClassIsmi 2) Obje ismi 3) "=" 4) "new" keyword'u 5) ClassIsmi() ==>Constructor
+                              // ! Object nasil olusturulur?
+        // ? 1) ClassIsmi 2) Obje ismi 3) "=" 4) "new" keyword'u 5) ClassIsmi() ==>Constructor
         C03_Car myHonda = new C03_Car();
         myHonda.dur();
         myHonda.hareketEt();
@@ -25,6 +25,6 @@ public class C03_Car {
     }
 
     public void dur() {
-        System.out.println("Honda guvanli durur");
+        System.out.println("Honda guvenli durur");
     }
 }
