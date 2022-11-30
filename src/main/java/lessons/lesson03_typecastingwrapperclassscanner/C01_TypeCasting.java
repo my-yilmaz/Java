@@ -2,7 +2,7 @@ package lessons.lesson03_typecastingwrapperclassscanner;
 
 public class C01_TypeCasting {
     //! Type Casting: Bir numeric data type'ini diger numeric data type'ina cevirmek demektir.
-    // ?           byte < short < int < long < float < double
+    //?           byte < short < int < long < float < double
     //* Kucuk data type'dan buyuk data type'na cevirmeye "Auto Widening" denir. Java kendisi otomatik yapar.
     //* Buyuk data type'dan kucuk data type'na cevirmeye "Explicit Narrowing" denir. Developer kendisi yapar.
 
