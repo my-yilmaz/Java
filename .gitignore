@@ -1,5 +1,6 @@
-target
-idea
+/.idea/
+/target/
+/test-output/
+/JavaLessons.iml
 .iml
 JavaLessons.iml
-
