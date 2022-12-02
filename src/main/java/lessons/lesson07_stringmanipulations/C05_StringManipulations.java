@@ -13,6 +13,8 @@ public class C05_StringManipulations {
         System.out.println(b); //true==>  bu stringin 2. karakterden sonra
         //         ne ile basladigini bulur ve karsilastirir
 
+        System.out.println();
+
 
     }
 }
