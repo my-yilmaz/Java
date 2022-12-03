@@ -59,7 +59,8 @@ public class C04_StringManipulations {
         // Eger String'de hic character yoksa isEmpty() methodu "true" return eder, herhangi bir character varsa "false" return eder
         // length()==0 demek isEmpty() true demektir.
         // Bir String'in bos olup olmadigini anlamak icin "length()==0" kullanmak yerine "isEmpty()" kullanmak daha iyidir
-        String v = "Java is Java";
+
+        String v = " ";
         boolean bosMu = v.isEmpty();  //* bos mu diye sorar, space bile olsa dolu kabul eder
         System.out.println(bosMu);  //* False
 

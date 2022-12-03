@@ -1,15 +1,15 @@
-package practise.practise01;
+package lessons.lesson02_methodcreation.practise.practise01;
 
 import java.util.Scanner;
 
 public class Q02_Substring {
     public static void main(String[] args) {
-         /*
-       Kullanıcıdan tek seferde alacağınız 2 kelimelik ad soyadı 2 ayrı kelimeye ayırınız,
-       ad ayrı soyad ayrı sekilde ekrana yazdırınız.
-       Örn:
-       Ad: Ali
-       Soyad: Can
+         /*todo
+            Kullanıcıdan tek seferde alacağınız 2 kelimelik ad soyadı 2 ayrı kelimeye ayırınız,
+            ad ayrı soyad ayrı sekilde ekrana yazdırınız.
+            Örn:
+            Ad: Ali
+            Soyad: Can
        */
 
         Scanner input = new Scanner(System.in);
