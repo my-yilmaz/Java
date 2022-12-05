@@ -35,10 +35,14 @@ public class C03_ForLoop {
         //? Example 3: Size verilen bir String'deki 'm' den onceki karakterleri yazdiriniz
         //?            Luxemburg ==> Luxe  gibi
 
-        String s= "Luxemburg";
+        String s = "Luxemburg";
 
-        for (int i = 0; i <s.length() ; i++) {
-            char c = s.charAt(0);
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'm') {
+                break;
+            }
+            System.out.print(c);
         }
     }
 }

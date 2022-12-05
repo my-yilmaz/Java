@@ -1,4 +1,4 @@
-package lessons.lesson02_methodcreation.practise.practise01;
+package advancedpractice.practise01;
 
 import java.util.Scanner;
 
