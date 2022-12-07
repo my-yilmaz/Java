@@ -1,8 +1,7 @@
 package lessons.lesson09_arrays;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.Comparator;
 
 public class C03_Arrays {
     public static void main(String[] args) {
@@ -22,5 +21,43 @@ public class C03_Arrays {
             }
         }
         System.out.println(Arrays.toString(yeni));
+
+        //? Example 2: Bir Array'in içinde herhangi bir elemanın olup olmadığını kontrol eden
+        //?           ve kac kere tekraralandigini gosteren kodu yazınız
+        //?          [2,1,2,-3,2] ==> Kullanici 2'yi sordu ==> 2 elemani var ve 3 kere tekrarlandi
+        //?                       ==> Kullanici 6'yi sordu ==> 6 elemani yok ve 0 kere tekrarlandi
+
+        int arr[] = {2, 1, 2, -3, 2};
+
+        int eleman = 1;
+        int counter = 0;
+        for (int w : arr
+        ) {
+            if (w == eleman) {
+                counter++;
+            }
+        }
+        if (counter > 0) {
+            System.out.println(eleman + " array'de " + counter + " defa var.");
+        } else
+            System.out.println(eleman + " array'de yok.");
+
+        //? Example 3: Size verilen bir cumledeki en uzun kelimeyi bulan kodu yaziniz.
+        //?            "Java kolaydir calisana, ne kolay ki calismayana" ==> calismayana
+
+        String sentence = "Java kolaydir calisana, ne kolay ki calismayana";
+        System.out.println(sentence);
+
+        sentence = sentence.replaceAll("\\p{Punct}", "");
+        System.out.println(sentence);
+
+        String words[] = sentence.split(" ");
+
+        Arrays.sort(words, Comparator.comparingInt(String::length));  // sort'un iki parametreli kullanimi
+
+        System.out.println(Arrays.toString(words)); // [ne, ki, Java, kolay, kolaydir, calisana, calismayana]
+
+
+        System.out.println(words[words.length - 1]);  // calismayana
     }
 }

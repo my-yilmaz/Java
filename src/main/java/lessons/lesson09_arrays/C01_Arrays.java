@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class C01_Arrays {
     /**
-     * * Ayni dataa tipini coklu data'yi depolamak icin java'nin olsuturdugu yapilar vardir.
-     * * Bu yapilardan biri de "Array" lerdir.
+     ** Ayni dataa tipini coklu data'yi depolamak icin java'nin olsuturdugu yapilar vardir.
+     ** Bu yapilardan biri de "Array" lerdir.
      */
     public static void main(String[] args) {
         //? Array nasil olusturulur?
