@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class C01_Arrays {
     /**
-     ** Ayni dataa tipini coklu data'yi depolamak icin java'nin olsuturdugu yapilar vardir.
+     ** Ayni data tipinde coklu data'yi depolamak icin java'nin olsuturdugu yapilar vardir.
      ** Bu yapilardan biri de "Array" lerdir.
      */
     public static void main(String[] args) {
