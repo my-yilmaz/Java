@@ -11,7 +11,5 @@ public class C04_StringManipulationsStartsWith {
         String cumle = "Kazananlar hic hata yapmayanlar degil,vazgecmeyenlerdir";
         System.out.println(cumle.startsWith("Ka"));
         System.out.println(cumle.endsWith("dir"));
-
-
     }
 }

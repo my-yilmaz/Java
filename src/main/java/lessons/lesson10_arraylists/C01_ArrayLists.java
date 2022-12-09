@@ -69,7 +69,7 @@ public class C01_ArrayLists {
 
         //? Example 1: nums ArrayList'indeki tum tek sayilari 11 artirdiktan sonra ekrana yazdiriniz
 
-        for (Integer w : nums
+        for (int w : nums
         ) {
             if (w % 2 != 0) {
                 nums.set(nums.indexOf(w), w + 11);

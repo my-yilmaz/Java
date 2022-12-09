@@ -16,11 +16,8 @@ public class C05_StringManipulationsIsEmpty {
 
         String str4 = "kelime";
 
-
         if (str4.contains(" ")) {
             System.out.println("boşluk var");
         } else System.out.println("bosluk yok");
-
-
     }
 }

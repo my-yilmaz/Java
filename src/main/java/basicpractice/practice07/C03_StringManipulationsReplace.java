@@ -74,8 +74,6 @@ public class C03_StringManipulationsReplace {
         System.out.println(str3.equals("merhaba"));//false
         System.out.println(str3.equalsIgnoreCase("MerHaba"));//true
         System.out.println(str3.equalsIgnoreCase("Merha"));//false
-
-
     }
 }
 
