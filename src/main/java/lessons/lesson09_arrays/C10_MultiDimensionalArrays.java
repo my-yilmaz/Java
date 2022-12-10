@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class C10_MultiDimensionalArrays {
     public static void main(String[] args) {
-        //? Bir multidimansional array'deki en buyuk ve en kucuk elemanin toplamini vern kodu yaziniz
+        //? Bir multidimansional array'deki en buyuk ve en kucuk elemanin toplamini veren kodu yaziniz
 
         int arr[][] = {{2, 5, 1}, {83, 75}};
 

@@ -3,7 +3,6 @@ package lessons.lesson10_arraylists;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 public class C05_ArrayLists {
     public static void main(String[] args) {

@@ -59,7 +59,6 @@ public class C03_ArrayLists {
             System.out.println("Listler esittir.");
         }
 
-
         //* 2. yol;
 
         boolean esitMi = m.equals(n);
