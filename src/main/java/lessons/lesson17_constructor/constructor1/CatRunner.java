@@ -1,4 +1,4 @@
-package lessons.lesson17_constructor.constructo1;
+package lessons.lesson17_constructor.constructor1;
 
 public class CatRunner {
 

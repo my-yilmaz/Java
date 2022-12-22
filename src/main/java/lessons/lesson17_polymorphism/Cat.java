@@ -5,9 +5,26 @@ public class Cat extends Mammal {
         System.out.println("Cats meow");
     }
 
-    @Override //*  @Override annotation'ini kullanarak, Java'nin yaptigimiz Override islemini kontrol etmesini saglariz.
+    @Override //?  @Override annotation'ini kullanarak, Java'nin yaptigimiz Override islemini kurallarini kontrol etmesini saglariz.
     public void eat() {
+
         System.out.println("Cats eat");
+    }
+
+    @Override
+    public int add(int a, int b) {
+        return a + b +1;
+    }
+
+    @Override
+    public Integer multiply(int a, int b) {
+        return a * b + 1;
+    }
+
+    //! Asagidaki method "Overriding Method" dur
+    @Override
+    public Mammal create() {
+        return new Mammal();
     }
 
     /*TODO:
