@@ -1,4 +1,4 @@
-package lessons.lesson17_polymorphism;
+package lessons.lesson18_polymorphism;
 
 public class Mammal extends Animal {
     public  void feedWithMilk(){
