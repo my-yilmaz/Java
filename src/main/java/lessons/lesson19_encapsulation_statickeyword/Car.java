@@ -6,4 +6,6 @@ public class Car {
     public String model = "Accord";
     public  int price = 20000;
     public  int newPrice = 25000;
+    public  int newPrice1 = 25000;
+    public  int newPrice2 = 25000;
 }
