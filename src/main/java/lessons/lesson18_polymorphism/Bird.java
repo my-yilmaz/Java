@@ -3,7 +3,7 @@ package lessons.lesson18_polymorphism;
 public class Bird extends  Animal {
 
 
-    /**
+    /*todo
         "final" keyword nedir?
         "final" keyword  i)Variable'larda kullanilabilir, bir kere deger atadiktan sonra bir daha asla degistiremezsiniz.
                             public final int age= 12;
