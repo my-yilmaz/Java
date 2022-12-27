@@ -14,10 +14,10 @@ public class CarRunner {
         Car car4 = new Car();
 
         //? static variable'lara objeleri kullanarak ulasmak mumkun ama tavsiye edilmez.
-        System.out.println(car1.counter);  // 4
+        System.out.println(car1.counter);  //* 4
         //? static variable'lara class ismi kullanarak ulasilmalidir.
         System.out.println(Car.counter);
-        System.out.println(car1.price);  // 20001
+        System.out.println(car1.price);  //* 20001
 
         System.out.println(Car.counter);
         System.out.println(car2.price);
