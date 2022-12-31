@@ -3,8 +3,8 @@ package lessons.lesson20_exception;
 public class Exception05_StringIndexOutOfBoundsException {
     public static void main(String[] args) {
         System.out.println(getCharFromString("Java", 2)); //* v
-        System.out.println(getCharFromString("Selenium", 8)); //* StringIndexOutOfBoundsException: Eger bir String'deb bir karakter veya karakterler alirken olmayan bir index kullanilirsa
-                                                                      //** StringIndexOutOfBoundsException alinir.
+        System.out.println(getCharFromString("Selenium", 8)); //* StringIndexOutOfBoundsException: Eger bir String'den bir karakter veya karakterler alirken olmayan bir index kullanilirsa
+                                                                      //* StringIndexOutOfBoundsException alinir.
 
         System.out.println(getCharFromString("Muhammed", 5));
     }
@@ -14,8 +14,8 @@ public class Exception05_StringIndexOutOfBoundsException {
         try {
             harf = str.charAt(idx);
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println("index ile ilgili bir problem olustu  "+e.getMessage());
-            e.printStackTrace();//detayli log icin.
+            System.out.println("index ile ilgili bir problem olustu:  " + e.getMessage());
+            e.printStackTrace();//* detayli log icin.
         }
         return harf;
     }
