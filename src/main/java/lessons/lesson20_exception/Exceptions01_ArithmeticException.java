@@ -1,6 +1,6 @@
 package lessons.lesson20_exception;
 
-public class Exception01_ArithmeticException {
+public class Exceptions01_ArithmeticException {
     /*todo
        1) "Exception" (istisnai hata) javada kodalarimizi calistirirken meydana gelen beklenmedik durumlardir.
        2)  Exceptionlar ile calismanin iki yolu vardir:

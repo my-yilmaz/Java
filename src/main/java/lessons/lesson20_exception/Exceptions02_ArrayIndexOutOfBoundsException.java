@@ -1,6 +1,6 @@
 package lessons.lesson20_exception;
 
-public class Exception02_ArrayIndexOutOfBoundsException {
+public class Exceptions02_ArrayIndexOutOfBoundsException {
     public static void main(String[] args) {
         String arr[] = {"Ali", "Can", "Veli", "Han"};
 

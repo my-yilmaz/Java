@@ -1,6 +1,6 @@
 package lessons.lesson20_exception;
 
-public class Exception03_NullPointerException {
+public class Exceptions03_NullPointerException {
     public static void main(String[] args) {
         String str = "Ali";
 

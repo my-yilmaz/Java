@@ -2,7 +2,7 @@ package lessons.lesson20_exception;
 
 import java.io.IOException;
 
-public class Exception04_NumberFormatException {
+public class Exceptions04_NumberFormatException {
     public static void main(String[] args) {
         String str = "123";
         int result = convertStringToInteger(str);

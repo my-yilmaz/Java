@@ -1,6 +1,6 @@
 package lessons.lesson20_exception;
 
-public class Exception06 {
+public class Exceptions06 {
     public static void main(String[] args) {
         double d = divideStringByTheNumOfTheChar("1234");
         System.out.println(d);
