@@ -1,7 +1,6 @@
-package lessons.lesson21_abstraction;
+package lessons.lesson21_abstraction.abstract02;
 
-public class Civic implements Engine, Hood, Ac {
-    //? Bir Class's bir interface'in child'i yapmak icin "implements" kullaniriz.
+public class Accord implements Engine, Hood, Ac {
 
     @Override
     public void eco() {

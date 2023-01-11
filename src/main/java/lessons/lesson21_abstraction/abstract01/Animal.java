@@ -1,4 +1,4 @@
-package lessons.lesson21_abstraction;
+package lessons.lesson21_abstraction.abstract01;
 
 public abstract class Animal {
 

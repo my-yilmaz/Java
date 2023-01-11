@@ -1,4 +1,4 @@
-package lessons.lesson21_abstraction;
+package lessons.lesson21_abstraction.abstract01;
 
 public class Bird extends Animal {
     @Override
@@ -10,4 +10,5 @@ public class Bird extends Animal {
     public void move() {
         System.out.println("Birds move");
     }
+
 }

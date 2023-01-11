@@ -1,4 +1,4 @@
-package lessons.lesson21_abstraction;
+package lessons.lesson21_abstraction.abstract02;
 
 public interface Engine {
     /*todo
