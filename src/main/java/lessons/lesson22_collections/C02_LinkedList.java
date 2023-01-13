@@ -68,7 +68,7 @@ public class C02_LinkedList {
 
         //!      Interview Sorusu:
         //? Example 2: List'teki 4 harften cok harf iceren isimleri siliniz.
-        //? Eleman sayisini azaltacagimiz icin i ye ihtiyacimiz var ,o yuzden for loop kullaniyoruz.
+        //? Eleman sayisini azaltacagimiz icin i ye ihtiyacimiz var ,o yuzden for-each loop degil for loop kullaniyoruz.
 
         for (int i = 0; i < students.size(); i++) {
             if (students.get(i).length() > 4) {
