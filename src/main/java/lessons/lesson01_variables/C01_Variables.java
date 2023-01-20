@@ -2,7 +2,7 @@ package lessons.lesson01_variables;
 
 public class C01_Variables {
 
-    /*
+    /*todo
                              How to create Variables?
         1) Access Modifier 2) Data type 3) Variable Name 4) Assignment Operator => =  5) Value 6) ;
     */
