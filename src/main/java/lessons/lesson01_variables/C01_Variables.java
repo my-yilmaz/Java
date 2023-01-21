@@ -64,11 +64,11 @@ public class C01_Variables {
 
     public float priceOfShirt = 13.99F;
     public double weigtOgCell = 0.0000012045;
-    // Biz "long" yazmamiza ragmen Java verilen "int" kabul eder
-    // Bu yuzden, long bir variable'a "int" araliginin disinda bir sayi verirseniz mutlaka sonuna "L" veya "l" koyunuz
+    //* Biz "long" yazmamiza ragmen Java verilen "int" kabul eder
+    //* Bu yuzden, long bir variable'a "int" araliginin disinda bir sayi verirseniz mutlaka sonuna "L" veya "l" koyunuz
     public long populationOfWorld = 700000000000L;
 
-    // Burada "L" koymadigimiz halde problem yok  cunku "1234" int araligindadir
+    //* Burada "L" koymadigimiz halde problem yok  cunku "1234" int araligindadir
     public long x = 1234;
 
     public boolean isOld = true;
