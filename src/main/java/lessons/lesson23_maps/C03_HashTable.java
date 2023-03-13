@@ -1,6 +1,5 @@
 package lessons.lesson23_maps;
 
-import java.util.HashMap;
 import java.util.Hashtable;
 
 public class C03_HashTable {
