@@ -37,7 +37,7 @@ public class C07_Iterators {
             itr.next();
             itr.remove();
         }
-        System.out.print(myList);
+        System.out.println(myList);
 
         /*todo
             1) ListIterator da i)hasNext() ii)next() iii)set() iv)hasPrevious() v)previous vi)remove() method'lari vardir
