@@ -12,7 +12,11 @@ public class EnumRunner {
         String stateName = UsStates.getStateNameFromCapital("Olympia");
         System.out.println(stateName);
 
+        System.out.println(UsStates.getStateNameFromCapital("Madison"));
+
         String abbreviation = UsStates.getAbbreviationFromCapital("Topeka");
         System.out.println(abbreviation);
+
+        System.out.println(UsStates.getAbbreviationFromCapital("Madison"));
     }
 }
