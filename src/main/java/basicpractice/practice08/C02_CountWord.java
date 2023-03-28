@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class CountWord {
+public class C02_CountWord {
     public static void main(String[] args) {
         try {
             FileInputStream myFile = new FileInputStream("src/main/java/basicpractice/practice08/filename.txt");

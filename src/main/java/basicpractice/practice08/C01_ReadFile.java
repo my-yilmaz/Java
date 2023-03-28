@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class ReadFile {
+public class C01_ReadFile {
     public static void main(String[] args) {
         try {
             FileInputStream myFile = new FileInputStream("src/main/java/basicpractice/practice08/filename.txt");
