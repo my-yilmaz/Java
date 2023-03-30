@@ -7,7 +7,6 @@ public class Q01_ArmstrongNumber {
         //? Kullanicidan alinan sayinin Armstrong sayi olup olmadini kontrol eden kodu yaziniz.
 
         //*  Armstrong sayi:herhangi bir 3 basamakli sayinin rakamlarinin kupleri toplami o sayiyi veriyorsa sayi Armstrong sayidir
-
         //* (0, 1, 153, 370, 371, 407)
         //* 153 = 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3 = 153
 
@@ -32,7 +31,7 @@ public class Q01_ArmstrongNumber {
             System.out.println(number + " bir Armstrong sayısı değildir.");
         }
 
-        //? soru2: Birden baslayarak girilen sayıya kadar her bir tamsayının amstrong sayı olup olmadıgını gösteren program yazınız
+        //? Birden baslayarak girilen sayıya kadar her bir tamsayının amstrong sayı olup olmadıgını gösteren program yazınız
 
         System.out.print("Bir sayi giriniz: ");
         int number1 = scanner.nextInt();
