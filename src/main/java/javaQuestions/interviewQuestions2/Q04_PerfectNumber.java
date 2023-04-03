@@ -1,7 +1,7 @@
 package javaQuestions.interviewQuestions2;
 
 public class Q04_PerfectNumber {
-    /* Perfect Number (Mukemmel sayi)
+    /** Perfect Number (Mukemmel sayi)
       Kullanici tarafindan bir sayiya kadar olan sayilarin,
       mukemmel olup olmadigini bulan method yaziniz.
       Mukemmel sayi : bir sayinin kendisi haric bolenlerinin toplami,
