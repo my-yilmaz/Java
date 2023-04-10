@@ -1,5 +1,6 @@
 package javaQuestions.interviewQuestions3;
 
+
 import java.util.Scanner;
 
 public class Q04_FrequencyOfCertainChar {
@@ -11,6 +12,7 @@ public class Q04_FrequencyOfCertainChar {
 
      */
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bir isim girin: ");
@@ -29,5 +31,3 @@ public class Q04_FrequencyOfCertainChar {
         System.out.println("'" + karakter + "' karakteri " + isim + " isminde " + tekrarSayisi + " kez tekrarlanıyor.");
     }
 }
-
-
