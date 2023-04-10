@@ -13,28 +13,25 @@ public class Q02_CreateRandomList_SetList {
 
      */
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>(10); // 10 elemanlı ArrayList oluşturuldu
-        randomAdd(list); // randomAdd metoduna list parametresi gönderildi
-        System.out.println(list); // listeyi ekrana yazdırdık
+        ArrayList<Integer> list = new ArrayList<>(10);
+        randomAdd(list);
+        System.out.println(list);
     }
 
     public static void randomAdd(ArrayList<Integer> list) {
         Random rand = new Random();
-        boolean ciftSayiMevcut = false; // başlangıçta çift sayı mevcut değil
 
-        for (int i = 0; i < 10; i++) { // 10 elemanlı bir ArrayList olduğu için 10 kere döngüye giriyoruz
-            int sayi = rand.nextInt(21); // 0-20 arası bir sayı üretiyoruz
-
-            if (sayi % 2 == 0) { // sayı çift ise
-                list.add(111); // listeye 111 ekliyoruz
-                ciftSayiMevcut = true; // çift sayı olduğunu belirten değişkeni true yapıyoruz
-            } else {
-                list.add(sayi); // sayı tek ise direk listeye ekliyoruz
+        for (int i = 0; i < 10; i++) {
+            int num = rand.nextInt(21); // 0-20 arası rastgele sayı üretir
+            if (num % 2 == 0) { // çift sayı ise
+                list.add(111);
+            } else { // tek sayı ise
+                list.add(num);
             }
         }
 
-        if (!ciftSayiMevcut) { // çift sayı yoksa
-            System.out.println("Çift sayı yoktur."); // mesaj yazdırıyoruz
+        if (!list.contains(111)) { // eğer çift sayı yoksa
+            System.out.println("Çift sayı yoktur.");
         }
     }
 }
