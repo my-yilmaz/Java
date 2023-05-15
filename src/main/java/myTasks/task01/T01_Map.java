@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
-public class T01_Restaurant {
+public class T01_Map {
     /*
  TODO:
      Task: Bir restoranın menüsü ve fiyatları verilmiştir. Müşterilerden sipariş alınırken menüden seçilen yemeklerin fiyatlarının toplamını hesaplamak istiyoruz.
