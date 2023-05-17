@@ -2,7 +2,7 @@ package myTasks.task01;
 
 import java.util.Scanner;
 
-public class TC03_Ternary {
+public class T03_Ternary {
     /*
     TODO: Bir kullanıcıdan bir sayı girişi yapmasını isteyin.
           Ardından, kullanıcının girdiği sayının pozitif, negatif veya sıfır
