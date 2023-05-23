@@ -3,7 +3,7 @@ package myTasks.task03;
 import java.util.Random;
 import java.util.Scanner;
 
-public class TC02_dowhile {
+public class TC02_DoWhile {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +25,6 @@ public class TC02_dowhile {
                 System.out.println("Tebrikler! Doğru sayıyı " + attempts + ". tahminde buldunuz.");
             }
         } while (guess != secretNumber);
-
 
         scanner.close();
     }
