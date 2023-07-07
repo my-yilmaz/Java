@@ -1,4 +1,5 @@
 package lambda;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -30,18 +31,18 @@ public class Lambda03 {
 
 
     // Task -1 : List elemanlarini alafabetik buyuk harf ve  tekrarsiz print ediniz.
-    public static void alfBykTekrsz(List<String> yemek){
+    public static void alfBykTekrsz(List<String> yemek) {
         yemek.
                 stream().  // akis basladi
                 map(String::toUpperCase).  // Buyuk harfe cevrildi
                 sorted(). // dogal siralandi(alfabrtik)
                 distinct(). // elemanlarin tekrarsiz olmasini sagladi *****
-                forEach(t-> System.out.print(t+" ")); // print
+                forEach(t -> System.out.print(t + " ")); // print
     }
 
 
     // Task -2 : list elemanlarinin character sayisini ters sirali olarak tekrarsiz print ediniz..
-    public static void charSayisiTersSilaliUnique(List<String> ikram){
+    public static void charSayisiTersSilaliUnique(List<String> ikram) {
         ikram.
                 stream().
                 map(String::length). // akisi guncelledim kelimelerin uzunlugu olarak
@@ -52,7 +53,7 @@ public class Lambda03 {
 
 
     // Task-3 : List elemanlarini, character sayisina gore kckten byk e gore print ediniz..
-    public static void chrSayisiBykSirali(List<String> ikram){
+    public static void chrSayisiBykSirali(List<String> ikram) {
         ikram.
                 stream().  // akis saglandi
                 sorted(Comparator.comparing(String::length)). // String ifadeleri karakter sayisina gore k-> b ye gore siraladim
@@ -70,35 +71,35 @@ public class Lambda03 {
 
 
     // Task-4 : List elemanlarinin hepsinin karakter sayisinin 7 ve 7 'den az olma durumunu kontrol ediniz.
-    public static void harfSayisi7denAzKontrol(List<String> ikram){
+    public static void harfSayisi7denAzKontrol(List<String> ikram) {
         System.out.println(ikram.
                 stream().
-                allMatch(t-> t.length()<=7) ? "list elemanlari 7 ve daha az harften olusuyor" :
+                allMatch(t -> t.length() <= 7) ? "list elemanlari 7 ve daha az harften olusuyor" :
                 "list elemanlari 7 harften buyuk");
     }
 
 
     // Task-5 : List elelmanlarinin hepsinin "w" ile baslamasını noneMatch() ile kontrol ediniz.
-    public static void wIleBaslayanElKontrol(List<String> ikram){
+    public static void wIleBaslayanElKontrol(List<String> ikram) {
         System.out.println(ikram.
                 stream().
-                noneMatch(t-> t.startsWith("w")) ? "w ile yemek ismi mi olur":
+                noneMatch(t -> t.startsWith("w")) ? "w ile yemek ismi mi olur" :
                 "w ile yemek icat ettik");
     }
 
 
     // Task-6 : List elelmanlarinin "x" ile biten en az bir elemanı var mi kontrol ediniz.
-    public static void xIleBitenElKontrol(List<String> ikram){
-        System.out.println(ikram.stream().anyMatch(t-> t.endsWith("x")) ? "maasallah" :
+    public static void xIleBitenElKontrol(List<String> ikram) {
+        System.out.println(ikram.stream().anyMatch(t -> t.endsWith("x")) ? "maasallah" :
                 "x ile yemek ismi biter mi hic");
     }
 
 
     // Task-7 : Karakter sayisi en buyuk elemani yazdiriniz.
-    public static void charSayisiEnBykElPrint(List<String> ikram){
+    public static void charSayisiEnBykElPrint(List<String> ikram) {
         Stream<String> sonIsim = ikram.
                 stream(). // akis saglandi
-                        sorted(Comparator.comparing(t-> t.toString().length()).
+                        sorted(Comparator.comparing(t -> t.toString().length()).
                         reversed()). // karakter sayisina gore tersten siraladi
                         limit(1); // limit methodu kullanilarak sadece ilk eleman cagrildi
         // limit() method'unun donen degeri Stream<String> yapidadir
@@ -110,10 +111,10 @@ public class Lambda03 {
 
 
     // Task-8 : list elemanlarini son harfine göre siralayıp ilk eleman hariç kalan elemanlari print ediniz.
-    public static void ilkElHrcSonHrfSirakiPrint(List<String> ikram){
+    public static void ilkElHrcSonHrfSirakiPrint(List<String> ikram) {
         ikram.
                 stream(). // akis saglandi
-                sorted(Comparator.comparing(t-> t.charAt(t.length()-1))). // son harfine gore alfabetik siralama
+                sorted(Comparator.comparing(t -> t.charAt(t.length() - 1))). // son harfine gore alfabetik siralama
                 skip(1). // akistaki ilk eleman haric tutuldu
                 forEach(Lambda01::yazdir); // print edildi
     }
